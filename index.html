@@ -1,46 +1,104 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Kaushal Mohan : Hi.">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
     <title>Kaushal Mohan</title>
-  </head>
 
-  <body>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <h1 id="project_title">Kaushal Mohan</h1>
-          <h2 id="project_tagline">Hi.</h2>
+    <!-- Custom styles for this template -->
+    <link href="assets/css/soon.css" rel="stylesheet">
 
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>Well, the site is still under construction. But meanwhile, if you want to contact me, you can drop a mail to <a href="mailto:kaushalm93@gmail.com">kaushalm93@gmail.com</a> and I will get back to you.</p>
-
-<h1>
-<a id="oh-you-can-also" class="anchor" href="#oh-you-can-also" aria-hidden="true"><span class="octicon octicon-link"></span></a>Oh. You can also</h1>
-
-<p>Ping me on <a href="http://www.facebook.com/kaushal.mohan.1">Facebook</a>, check out my rants on <a href="https://twitter.com/kaushal_m_01">Twitter</a>, follow me on <a href="http://www.quora.com/Kaushal-Mohan">Quora</a>, or connect with me on <a href="https://www.linkedin.com/profile/view?id=232790134">LinkedIn</a>.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">        
-      </footer>
-    </div>
-
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
     
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
+  </head>
+  <!-- START BODY -->
+  <body class="nomobile">
+
+    <!-- START HEADER -->
+    <section id="header">
+        <div class="container">
+            <header>
+                <!-- HEADLINE -->
+                <h1><b>Welcome.</b></h1>
+            </header>
+            <!-- START TIMER -->
+            <div id="timer" data-animated="FadeIn">
+                <p id="message"></p>
+                <div id="days" class="timer_box"></div>
+                <div id="hours" class="timer_box"></div>
+                <div id="minutes" class="timer_box"></div>
+                <div id="seconds" class="timer_box"></div>
+            </div>
+            <!-- END TIMER -->
+			<div class="col-xs-6 col-xs-offset-3 mt centered">
+				<p>Meanwhile, to get in touch with me, you can drop a mail to <a href="mailto:kaushalm93@gmail.com"><b><u>kaushalm93@gmail.com</u></a></b></p>
+				<p>You can also ping me on <a href="http://www.facebook.com/kaushal.mohan.1"><u><b>Facebook</b></u></a>, check out my rants on <a href="https://twitter.com/kaushal_m_01"><b><u>Twitter</u></b></a>, follow me on <a href="http://www.quora.com/Kaushal-Mohan"><b><u>Quora</u></b></a>, or connect with me on <a href="https://www.linkedin.com/profile/view?id=232790134"><b><u>LinkedIn</u></b></a>.</p>
+			</div>
+			<!--
+            <div class="col-lg-4 col-lg-offset-4 mt centered">
+            	<h4>LET ME KNOW WHEN YOU LAUNCH</h4>
+				<form class="form-inline" role="form">
+				  <div class="form-group">
+				    <label class="sr-only" for="exampleInputEmail2">Email address</label>
+				    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+				  </div>
+				  <button type="submit" class="btn btn-info">Submit</button>
+				</form>            
+			</div>
+            -->
+        </div>
+        <!-- LAYER OVER THE SLIDER TO MAKE THE WHITE TEXTE READABLE -->
+        <div id="layer"></div>
+        <!-- END LAYER -->
+        <!-- START SLIDER -->
+        <div id="slider" class="rev_slider">
+            <ul>
+              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/1.jpg">
+                <img src="assets/img/slider/1.jpg">
+              </li>
+              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/2.jpg">
+                <img src="assets/img/slider/2.jpg">
+              </li>
+              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/3.jpg">
+                <img src="assets/img/slider/3.jpg">
+              </li>
+              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/4.jpg">
+                <img src="assets/img/slider/4.jpg">
+              </li>
+			  <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/5.jpg">
+                <img src="assets/img/slider/5.jpg">
+              </li>
+            </ul>
+        </div>
+        <!-- END SLIDER -->
+    </section>
+    <!-- END HEADER -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/soon/plugins.js"></script>
+    <script src="assets/js/soon/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/js/soon/custom.js"></script>
   </body>
+  <!-- END BODY -->
 </html>
