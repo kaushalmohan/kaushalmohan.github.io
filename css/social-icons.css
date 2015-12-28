@@ -1,0 +1,28 @@
+ul.share-buttons{
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.share-buttons li{
+   
+    font-style:normal;
+    font-weight:400;
+ 
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:inline;
+    position: relative;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    line-height: 0px;
+    font-size: 17px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    margin-right: 43px;
+    margin-left: 43px;
+    color: #ffffff;
+    background-color: none;
+}
